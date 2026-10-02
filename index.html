@@ -1,12 +1,11 @@
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
 <head>
-<title>Mahan Molavi QR | Free QR Code Generator</title>
+<title>Mahan QR | ساخت رایگان کد QR آنلاین</title>
 
-<meta name="description" content="Mahan QR is a free online QR code generator. Create QR codes for links, text and more in seconds.">
+<meta name="description" content="Mahan QR ابزار رایگان ساخت کد QR آنلاین است. لینک‌های خود را سریع به کد QR تبدیل کنید و آن را با فرمت PNG یا SVG دانلود کنید.">
 
 <meta name="robots" content="index, follow">
-<h1>Mahan QR - Free QR Code Generator</h1>
   <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -19,7 +18,7 @@
   <meta name="google-site-verification" content="stscn87_4mET-xGE5fd0iz3s880z7Z8oFMdvokqtecc" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>QR.ir — کد QR بساز</title>
+<link rel="canonical" href="https://mohammadrezmolavi-dev.github.io/qr-generator/">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.12.2/lottie.min.js"></script>
 <style>
@@ -266,6 +265,17 @@
   [data-theme="light"] .icon-moon{opacity:0; transform:rotate(90deg) scale(.5);}
   [data-theme="light"] .icon-sun{opacity:1; transform:rotate(0deg) scale(1);}
 
+  .seo-content{
+    position:relative; z-index:1;
+    width:min(100% - 32px, 720px);
+    margin:0 auto 48px; padding:24px;
+    color:var(--ink); background:var(--card);
+    border:1px solid var(--line); border-radius:16px;
+    line-height:2; text-align:right;
+  }
+  .seo-content h2{font-size:20px; margin:0 0 10px;}
+  .seo-content p{font-size:14px; color:var(--slate); margin:8px 0;}
+
   @media (max-width:480px){
     .url-row{flex-direction:column;}
     .gen-btn{padding:13px; width:100%;}
@@ -282,6 +292,13 @@
   #loadingAnim{width:150px; height:150px;}
   .loading-text{color:var(--slate); font-size:13px; margin-top:4px;}
   .gen-btn:disabled{opacity:.6; cursor:not-allowed; filter:none; transform:none;}
+
+.contact-section{max-width:760px;margin:28px auto 48px;padding:26px 22px;text-align:center;border:1px solid var(--border,rgba(128,128,128,.25));border-radius:18px;background:var(--card,rgba(128,128,128,.06));}
+.contact-section h2{margin:0 0 10px;font-size:1.45rem;}
+.contact-section p{line-height:1.9;margin:0 0 18px;opacity:.85;}
+.contact-link{display:inline-flex;align-items:center;justify-content:center;padding:11px 24px;border-radius:10px;text-decoration:none;background:#229ed9;color:#fff;font-weight:700;transition:opacity .2s;}
+.contact-link:hover{opacity:.85;}
+
 </style>
 </head>
 <body>
@@ -319,7 +336,7 @@
     <div class="app-header" style="justify-content:center;">
       <div class="brand">
         <div class="brand-mark">QR</div>
-        <div class="brand-name">QR.ir</div>
+        <div class="brand-name">Mahan QR</div>
       </div>
     </div>
 
@@ -354,6 +371,19 @@
     </div>
   </div>
 </div>
+
+<section class="seo-content" aria-labelledby="about-mahan-qr">
+  <h2 id="about-mahan-qr">Mahan QR؛ ابزار رایگان ساخت کد QR</h2>
+  <p>با Mahan QR می‌توانید آدرس وب‌سایت یا لینک دلخواه خود را به کد QR تبدیل کنید. کافی است لینک را وارد کنید و دکمه ساخت را بزنید.</p>
+  <p>پس از ساخت کد، می‌توانید تصویر QR را با فرمت PNG یا SVG دانلود کنید و در پروژه‌ها، کارت ویزیت یا محتوای دیجیتال خود استفاده کنید.</p>
+</section>
+
+
+<section class="contact-section" id="contact" aria-labelledby="contact-title">
+  <h2 id="contact-title">ارتباط با ما</h2>
+  <p>اگر پیشنهاد، انتقاد یا سؤالی درباره Mahan QR دارید، از طریق ایتا با ما در ارتباط باشید.</p>
+  <a class="contact-link" href="https://eitaa.com/Mahan13315" target="_blank" rel="noopener noreferrer">ارتباط در ایتا</a>
+</section>
 
 <script>
 /* ---------------- QR generation (URL only, fixed style) ---------------- */
